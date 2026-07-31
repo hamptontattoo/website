@@ -2,7 +2,6 @@
 
 body {
     margin: 0;
-    font-family: "Italianno", cursive;
     background-color: rgb(19, 19, 19);
     color: gold
 }
@@ -11,18 +10,62 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Italianno", cursive;
 
     background-color: black;
-    color:goldenrod;
+    color:white;
 
     padding: 15px 30px;
     
 }
+
+h1, h2, h3 {
+    font-family: "Italianno", cursive;
+    color: GOLD
+}
+
 .logotext {
     margin: 0;
     font-family: "Italianno", cursive;
     color: gold
 }
+
+.main {
+    text-align: center;
+    font-size: 60px
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.imagecontainer img {
+    max-width: 200px;
+    height: auto;
+    transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+.img1:hover {
+    transform: translateY(-5px)
+}
+
+.img2:hover {
+    transform: translateY(-5px)
+}
+
+.img3:hover {
+    transform: translateY(-5px)
+}
+
+.img4:hover {
+    transform: translateY(-5px)
+}
+
 
 a:link {
     color:gold
