@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: rgb(19, 19, 19);
 }
 
 .navbar {
@@ -8,35 +9,33 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    background-color: red;
-    color:white;
+    background-color: gray;
+    color:goldenrod;
 
     padding: 15px 30px;
-
-    border-bottom: 3px solid #00bfff;
 }
 
 a:link {
-    color:blue
+    color:gold
 }
 a:visited {
-    color:red
+    color:gold
 }
 a:hover {
-    color:darkblue
+    color:gold
 }
 a:active {
-    color:green
+    color:gold
 }
 nav a:link {
-    color:blue
+    color:goldenrod
 }
 nav a:visited {
-    color:red
+    color:gold
 }
 nav a:hover {
-    color:darkblue
+    color:goldenrod
 }
 nav a:active {
-    color:green
+    color:gold
 }
