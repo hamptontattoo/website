@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=Tangerine:wght@400;700&display=swap');
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Italianno", cursive;
     background-color: rgb(19, 19, 19);
+    color: gold
 }
 
 .navbar {
@@ -9,10 +12,16 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    background-color: gray;
+    background-color: black;
     color:goldenrod;
 
     padding: 15px 30px;
+    
+}
+.logotext {
+    margin: 0;
+    font-family: "Italianno", cursive;
+    color: gold
 }
 
 a:link {
@@ -26,6 +35,11 @@ a:hover {
 }
 a:active {
     color:gold
+}
+nav a {
+    color: gold;
+    text-decoration: none;
+    font-size: 24px
 }
 nav a:link {
     color:goldenrod
