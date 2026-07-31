@@ -21,7 +21,8 @@ body {
 
 h1, h2, h3 {
     font-family: "Italianno", cursive;
-    color: GOLD
+    color: GOLD;
+    text-decoration: none;
 }
 
 .logotext {
@@ -32,7 +33,8 @@ h1, h2, h3 {
 
 .main {
     text-align: center;
-    font-size: 60px
+    font-size: 60px;
+    text-decoration: none;
 }
 
 .imagecontainer {
@@ -48,6 +50,24 @@ h1, h2, h3 {
     max-width: 200px;
     height: auto;
     transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+.room {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.room img {
+    max-width: 400px;
+    height: auto;
+    transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.logo {
+    max-width: 30px;
+    height: auto
 }
 
 .img1:hover {
@@ -66,6 +86,125 @@ h1, h2, h3 {
     transform: translateY(-5px)
 }
 
+.img5:hover {
+    transform: scale(1.1)
+}
+
+.img6:hover {
+    transform: scale(1.1)
+}
+
+.img7:hover {
+    transform: scale(1.1)
+}
+
+.img8:hover {
+    transform: scale(1.1)
+}
+
+.img9:hover {
+    transform: scale(1.1)
+}
+
+.img10:hover {
+    transform: scale(1.1)
+}
+
+.img11:hover {
+    transform: scale(1.1)
+}
+
+.img12:hover {
+    transform: scale(1.1)
+}
+
+.img13:hover {
+    transform: scale(1.1)
+}
+
+.img14:hover {
+    transform: scale(1.1)
+}
+
+.img15:hover {
+    transform: scale(1.1)
+}
+
+.img16:hover {
+    transform: scale(1.1)
+}
+
+.img17:hover {
+    transform: scale(1.1)
+}
+
+.img18:hover {
+    transform: scale(1.1)
+}
+
+.img19:hover {
+    transform: scale(1.1)
+}
+
+.img20:hover {
+    transform: scale(1.1)
+}
+
+.img21:hover {
+    transform: scale(1.1)
+}
+
+.img22:hover {
+    transform: scale(1.1)
+}
+
+.img23:hover {
+    transform: scale(1.1)
+}
+
+.img24:hover {
+    transform: scale(1.1)
+}
+
+.img25:hover {
+    transform: scale(1.1)
+}
+
+.img26:hover {
+    transform: scale(1.1)
+}
+
+.img28:hover {
+    transform: scale(1.1)
+}
+
+.img29:hover {
+    transform: scale(1.1)
+}
+
+.img30:hover {
+    transform: scale(1.1)
+}
+
+.img31:hover {
+    transform: scale(1.1)
+}
+
+.img32:hover {
+    transform: scale(1.1)
+}
+
+.img33:hover {
+    transform: scale(1.1)
+}
+
+.img34:hover {
+    transform: scale(1.1)
+}
+
+.img0:hover {
+    transform: scale(1.1)
+}
 
 a:link {
     color:gold
